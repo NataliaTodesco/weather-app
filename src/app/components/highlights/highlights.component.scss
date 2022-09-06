@@ -1,0 +1,126 @@
+h1 {
+  width: 220px;
+  height: 28px;
+  margin: 50px 0;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #e7e7eb;
+}
+
+.card {
+  background: #1e213a;
+  padding: 30px;
+  margin-top: 20px;
+
+  &-1 {
+    height: 254px;
+
+    .ellipse-2 {
+      position: absolute;
+      width: 29.49px;
+      height: 29.49px;
+      left: 137px;
+      top: 175px;
+      color: #e7e7eb;
+
+      border-radius: 50%;
+      text-align: center;
+      padding: 5.3px;
+
+      background: rgba(255, 255, 255, 0.3);
+      transform: rotate(-225deg);
+
+      span {
+        font-size: larger;
+      }
+    }
+  }
+
+  &-2 {
+    padding: 20px 50px;
+    height: 254px;
+
+    .num {
+      display: flex;
+      justify-content: space-between;
+      color: #e7e7eb;
+
+      p {
+        margin-top: 0px;
+        margin-bottom: 0;
+      }
+    }
+
+    .progress {
+      height: 8px;
+      background: #e7e7eb;
+      border-radius: 80px;
+
+      &-bar {
+        background-color: #ffec65;
+      }
+    }
+
+    .porc {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 14px;
+
+      text-align: end;
+
+      color: #a09fb1;
+    }
+  }
+
+  @for $i from 1 through 5 {
+    &-#{$i} {
+      p {
+        font-size: 19px;
+        margin-top: 16px;
+
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        text-align: center;
+
+        color: #e7e7eb;
+      }
+
+      h6 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        font-family: "Raleway";
+        font-style: normal;
+
+        line-height: 75px;
+        text-align: center;
+        font-size: 42px;
+
+        span {
+          font-weight: 700;
+          font-size: 64px;
+          margin-right: 5%;
+          text-align: center;
+        }
+
+        color: #e7e7eb;
+      }
+    }
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}

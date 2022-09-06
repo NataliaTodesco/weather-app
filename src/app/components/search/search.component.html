@@ -1,0 +1,15 @@
+<section id="search" [ngStyle]="{'display': cerrar? 'none' : 'block'}">
+    <span class="material-symbols-outlined close" (click)="Cerrar()">
+        close
+    </span>
+    <div class="search">
+        <div class="buscador">
+            <label for="buscar" class="material-symbols-outlined vector">
+                search
+            </label>
+            <input type="text" id="buscar" class="form-control" placeholder="Buscar" [(ngModel)]="busqueda"
+                autocomplete="off">
+        </div>
+        <button class="btn btn-primary" (click)="Buscar()">Search</button>
+    </div>
+</section>

@@ -1,0 +1,18 @@
+.botones{
+    display: flex;
+    justify-content: end;
+    padding: 0 22px;
+    .ellipse {
+        width: 40px;
+        height: 40px;
+        margin: 42px 5px;
+        padding: 7px 0;
+        border-radius: 50%;
+    
+        text-align: center;
+        font-size: large;
+        font-weight: 700;
+    
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}

@@ -1,0 +1,13 @@
+<section id="day">
+    <h6 *ngIf="day.date == fecha">
+        Tomorrow
+    </h6>
+    <h6 *ngIf="day.date != fecha"> {{day.date | date:'EE, d MMM' }} </h6>
+
+    <img src={{day.day.condition.icon}} alt="" class="img-fluid">
+
+    <div class="temp">
+        <p>{{max}}{{tipo}}</p>
+        <p>{{min}}{{tipo}}</p>
+    </div>
+</section>

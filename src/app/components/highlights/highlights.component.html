@@ -1,0 +1,56 @@
+<h1>Today’s Hightlights</h1>
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <div class="card card-1">
+            <p>Wind status</p>
+            <h6>
+                <span>{{current.wind_mph}}</span> mph
+            </h6>
+            <div>
+                <div class="ellipse-2">
+                    <span class="material-symbols-outlined">
+                        send
+                    </span>
+                </div>
+                <p class="wind">WSW</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-12">
+        <div class="card card-2">
+            <p>Humidity</p>
+            <h6>
+                <span>{{current.humidity}}</span> %
+            </h6>
+            <div class="contenedor">
+                <div class="num">
+                    <p class="p-0">0</p>
+                    <p class="p-1">50</p>
+                    <p class="p-2">100</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" [style]="'width:'+current.humidity+'%'"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>
+                <p class="porc">%</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-12">
+        <div class="card card-3">
+            <p>Visibility</p>
+            <h6>
+                <span>{{current.vis_miles}}</span> miles
+            </h6>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-12">
+        <div class="card card-4">
+            <p>Air Pressure</p>
+            <h6>
+                <span>{{current.pressure_mb}}</span> mb
+            </h6>
+        </div>
+    </div>
+</div>

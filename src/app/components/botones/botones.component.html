@@ -1,0 +1,6 @@
+<div class="botones">
+    <button class="btn ellipse" (click)="cambiarTipo('°C')"
+        [ngClass]="{'btn-light': tipo === '°C', 'btn-secondary': tipo !== '°C'}"> °C </button>
+    <button class="btn ellipse" (click)="cambiarTipo('°F')"
+        [ngClass]="{'btn-light': tipo === '°F', 'btn-secondary': tipo !== '°F'}"> °F </button>
+</div>

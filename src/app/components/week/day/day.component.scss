@@ -1,0 +1,43 @@
+#day {
+  width: 120px;
+  height: 177px;
+  padding: 18px;
+
+  margin-top: 20px;
+  
+  background: #1e213a;
+  text-align: center;
+}
+
+h6 {
+  width: 100%;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+
+  color: #e7e7eb;
+}
+
+.temp{
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        width: 33px;
+        height: 19px;
+        margin-top: 15px;
+
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+      
+        color: #e7e7eb;
+      }
+}

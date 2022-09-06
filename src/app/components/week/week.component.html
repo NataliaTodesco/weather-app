@@ -1,0 +1,10 @@
+<section id="week">
+    <div class="row">
+        <div class="col" *ngFor="let dia of week">
+            <app-day
+            [day] = "dia"
+            [tipo] = "tipo"
+            ></app-day>
+        </div>
+    </div>
+</section>

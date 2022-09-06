@@ -1,0 +1,29 @@
+.col-md-4 {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1e213a;
+}
+.col-md-8 {
+  margin: 0;
+  padding-left: 154px;
+  padding-bottom: 70px;
+
+  min-height: 1023px;
+  left: 459px;
+  top: 0px;
+  z-index: 5;
+
+  background: #100e1d;
+
+  @media (max-width: 1440px) {
+    min-height: 100vh;
+    padding: 0 54px;
+    padding-bottom: 70px;
+  }
+
+  @media (max-width: 1090px) {
+    padding: 0 14px;
+    padding-bottom: 70px;
+  }
+}
