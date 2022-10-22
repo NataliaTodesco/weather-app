@@ -6,7 +6,7 @@ import { Observable, Subject } from 'rxjs';
   providedIn: 'root',
 })
 export class WeatherService {
-  key: string = '4facaf34a5b14544a40220913220209';
+  key: string = 'ca9a766680b6425f9d7170658222210';
   current_url: string = 'https://api.weatherapi.com/v1/current.json?q=';
   days_url: string = 'https://api.weatherapi.com/v1/forecast.json?q=';
 
